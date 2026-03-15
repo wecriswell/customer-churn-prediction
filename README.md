@@ -1,5 +1,7 @@
 # customer-churn-prediction
 
+https://github.com/wecriswell/customer-churn-prediction
+
 Key Finding:
 
 It says there is an empty string but there are no missing values. That is interesting because it could mean there are accounts with missing names or values for the account. So yes, there was a formatting issue that was causing the previous analysis to falsely state there were no missing values. The 11 values appeared after the reformatting of ' '. There is a very stark difference of the churn values with only about 26% experiencing churn against the data. I think the final analysis telling you the metrics for the most common type of contract you have with non-senior citizen men who have month-to-month contracts might have been the best part of the whole thing. You can develop with that, the rest followed common sense I think and would serve as a cliff note or touch point for other initiatives in a company. 
