@@ -1,1 +1,9 @@
 # customer-churn-prediction
+
+Key Finding:
+
+It says there is an empty string but there are no missing values. That is interesting because it could mean there are accounts with missing names or values for the account. So yes, there was a formatting issue that was causing the previous analysis to falsely state there were no missing values. The 11 values appeared after the reformatting of ' '. There is a very stark difference of the churn values with only about 26% experiencing churn against the data. I think the final analysis telling you the metrics for the most common type of contract you have with non-senior citizen men who have month-to-month contracts might have been the best part of the whole thing. You can develop with that, the rest followed common sense I think and would serve as a cliff note or touch point for other initiatives in a company. 
+
+In this model the coefficients are like multipliers or something that is increasing or decreasing the weight of a value. So clearly from this info Tenure is a stronger coefficient and it causes a significant weight on churn, hence why it is almost double the next coefficient. These are all factors that are going to be causes for churn at some point. 
+
+For real world deployment, I think there needs to be some more information when it comes to interpretting this data. The causes for churn can be far and few between and some of the visualizations caused more questions then were answered. When rolling something like this out, there needs to be a conversation about more then just data. Most of the factors causing concern, could be captured as data but were human factors. Such as tenure and number of charges, there was a clear line people drew in the sand of tolerance. This data could help to point to that, but more studies need to performed I feel. 
